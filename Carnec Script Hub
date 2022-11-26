@@ -1962,6 +1962,10 @@ Section:NewButton("Pet Simulator X AutoFarm", "Брат, я срать хочу,
     local starterGui = game:GetService("StarterGui")
     loadstring(game:HttpGet("https://rawscripts.net/raw/CATS-or-Pet-Simulator-X!-Pasta-v2-6841"))()
 end)
+Section:NewButton("Another Pet Simulator X AutoFarm", "Брат, я срать хочу, выпусти пж", function()
+    local starterGui = game:GetService("StarterGui")
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+end)
 Section:NewButton("Build A Boat For Treasure Gui", "Best Auto Farm Script!", function()
     local starterGui = game:GetService("StarterGui")
     _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
